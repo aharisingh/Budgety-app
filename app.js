@@ -296,7 +296,7 @@ else if(type === 'exp'){
        monthNumber = now.getMonth();
        year = now.getFullYear();
         month = months[monthNumber];
-        console.log(month);
+        
         return (month + ' ' + year);
     },
     displayMonth:function(month){
@@ -372,7 +372,7 @@ var ctrlAddItem = function(){
 // 1. Get the filed input data
 var input = UIController.getInput();
 
-console.log(input);
+// console.log(input);
 //2. Add the item to the Budget Controller
  var newItem = budget.addItem(input.type,input.description,input.value);
 //
